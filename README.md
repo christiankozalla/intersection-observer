@@ -1,6 +1,6 @@
 # Intersection Observer Example
 
-The IntersectionObserver API can be used to observe elements dynamically whether intersecting or not.
+The IntersectionObserver API can be used to observe elements dynamically and find out whether they are intersecting or not.
 
 ## How to use this Example
 
