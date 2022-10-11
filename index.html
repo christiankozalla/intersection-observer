@@ -27,9 +27,23 @@
   <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png" />
   <meta name="theme-color" content="#ffffff" />
+
+  <style>
+    .reading-progress {
+      position: fixed;
+      height: 4px;
+      background: linear-gradient(45deg, orange, yellow);
+      top: 80px;
+      left: 0;
+      z-index: 5;
+      width: var(--reading-progress);
+      transition: width 500ms ease-out;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="reading-progress"></div>
   <div class="wrapper">
     <!-- HEADER -->
 
@@ -619,6 +633,7 @@
     </div>
   </div>
   <script src="/observer.js"></script>
+  <script src="/reading-progress.js"></script>
 </body>
 
 </html>
